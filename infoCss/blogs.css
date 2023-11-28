@@ -1,0 +1,28 @@
+.blog{
+    padding: 100px 0;
+    text-align: center;
+    
+}
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.blog-1{
+    padding: 15px 55px;
+
+}
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+
+}
+.blog-1 h3{
+    font-size: 25px;
+    color: #323337;
+
+}
+h2{
+    font-size: 60px;
+}

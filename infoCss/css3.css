@@ -1,0 +1,50 @@
+.servicios{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(../img/logo.PNG);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+    }
+
+ .servicios-content {
+    text-align: center;
+
+ }   
+ .servicios-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+ }
+.servicios-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+
+}
+.servicios-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.services-1{
+padding: 0 100px;
+
+}
+
+.services-1 img{
+    width: 50px;
+    margin-bottom: 15px;
+
+}
+.services-1 h3{
+    color: #eaccb3;
+    font-size: 18px;
+
+}

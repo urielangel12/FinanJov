@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none; 
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+.header{
+       background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../img/inicio.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        
+    }
+    .info{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        color: #fffdfc;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    .info .navbar ul li  {
+        position: relative;
+        float: left;
+    
+    }
+    .info .navbar ul li a {
+        font-size: 18px;
+        padding: 20px;
+        color: #fffdfc;
+        display: block;
+        font-weight: 600;
+    }
+    .info .navbar ul li a:hover {
+        color: #ce967b;
+
+    }
+    #info{
+        display: none;
+    }
+    .info-icono{
+        width: 25px;
+    }
+    .info label{
+        cursor: pointer;
+        display: none;
+    }
+    .header-content{
+        text-align: center;
+
+    }
+    .header-content h1{
+        font-size: 75px;
+        line-height: 80px;
+        color: #f9fafc;
+    }
+
+    .header-content p{
+        font-size: 16px;
+        color: #c5c5c5;
+        padding: 0 250px;
+        margin-bottom: 25px;
+    }
+    .btn-1{
+        display: inline-block;
+        padding: 11px 35px;
+        background-color: #ce967b;
+        color: #f9fafc;
+        text-transform: uppercase;
+
+    }
+    .btn-1:hover {
+        background-color: #ce967b;
+
+    }
+    @media (max-width:991px) {
+        .info{
+            padding: 30px;
+    
+        }
+        .info label{
+            display: initial;
+        }
+        .info .navbar{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #323337;
+            display: none;
+        }
+        .info .navbar ul li{
+            width: 100%;
+    
+        }
+        #info:checked ~ .navbar{
+            display: initial;
+        }
+        .header{
+            max-height: 0vh;
+        }
+        .header-content{
+            padding: 100px 30px;
+
+        }
+        .header-content p{
+            padding: 0;
+
+        }
+        .coffe {
+            padding: 30px;
+        }
+        .coffe-content h2 {
+            padding: 0;
+            
+
+        }
+        .txt-p{
+            padding: 0;
+        }
+        .coffe-group{
+            flex-direction: column;
+            margin-bottom: 0;
+
+        }
+        .coffee-img{
+            display: none;
+        }
+        .servicios{
+            padding: 30px;
+
+        }
+        .servicios-group{
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+        .services-1{
+            margin-bottom: 25px;
+        }
+        .general{
+            flex-direction: column;
+
+        }
+        .gen-1{
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+
+        }
+        .gen-2, .gen-3{
+            display: none;
+        }
+        .blog{
+            padding: 30px;
+        }
+        .blog-content{
+            flex-direction: column;
+
+        }
+        .blog-1{
+            padding: 0;
+        }
+    }

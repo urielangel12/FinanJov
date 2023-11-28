@@ -1,0 +1,137 @@
+.general {
+    display: flex;
+
+}
+.gen-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+
+}
+.gen-2 {
+    background-image: url(../img/gif.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+   
+
+}
+.gen-3 {
+    background-image: url(../img/Reunion.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+
+}
+h4 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+    
+        
+    
+}
+@media (max-width:991px) {
+    .info{
+        padding: 30px;
+
+    }
+    .info label{
+        display: initial;
+    }
+    .info .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+    .info .navbar ul li{
+        width: 100%;
+
+    }
+    #info:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        max-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+
+    }
+    .header-content p{
+        padding: 0;
+
+    }
+    .coffe {
+        padding: 30px;
+    }
+    .coffe-content h2 {
+        padding: 0;
+        
+
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .coffe-group{
+        flex-direction: column;
+        margin-bottom: 0;
+
+    }
+    .coffee-img{
+        display: none;
+    }
+    .servicios{
+        padding: 30px;
+
+    }
+    .servicios-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .services-1{
+        margin-bottom: 25px;
+    }
+    .general{
+        flex-direction: column;
+
+    }
+    .gen-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+
+    }
+    .gen-2, .gen-3{
+        display: none;
+    }
+    .blog{
+        padding: 30px;
+    }
+    .blog-content{
+        flex-direction: column;
+
+    }
+    .blog-1{
+        padding: 0;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
