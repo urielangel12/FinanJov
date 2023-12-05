@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url('../img/tasa.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #00152e; /* Azul noche */
+}
+
+.calculator,
+.form-style {
+  background-color: #00152e; /* Azul noche */
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 39%; /* Puedes ajustar el porcentaje según tus preferencias */
+  margin: auto;
+}
+
+.form-style {
+  border: 1px solid #ddd; /* Añadido para el borde del formulario */
+  width: 80%; /* Puedes ajustar el porcentaje según tus preferencias */
+  margin: auto;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+select,
+.button-style {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #000;
+  background-color: #0a3d62; /* Azul más bajo */
+}
+
+.button-style {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-style:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.page-wrapper {
+  text-align: center; /* Centra el contenido horizontalmente */
+  margin-top: 50px; /* Ajusta según sea necesario para separar el título del borde superior */
+  
+}
+
+.page-title {
+  font-family: Arial Black;
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* ... (otros estilos) */
+/* ... (otros estilos) */
+
+.information h2 {
+  text-align: center;
+  color: blue; /* Color de texto blanco */
+  margin-top: 50px; /* Ajusta según sea necesario para separar del contenido anterior */
+}
+
+.section {
+  font-family: Arial Black;
+  margin-top: 20px;
+  color: white;
+}
+
+.section h3 {
+  color: #68829E; /* Color de título verde para resaltar */
+}
+
+/* ... (otros estilos) */
+/* ... (otros estilos) */
+
+.section img{
+  display: block;
+  margin: auto;
+  max-width: 600px; /* Ajusta según sea necesario para limitar el ancho de la imagen */
+  height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+/* ... (otros estilos) */
+.contact-bar {
+  background-color: #34495E  ; /* Color de fondo de la barra de contactos */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.contact-bar h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contact-bar p {
+  margin-bottom: 10px;
+}
+
+.contact-bar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-bar li {
+  margin-bottom: 5px;
+}
+.information-table {
+  background-color: #4A235A ; /* Azul noche */
+  color: #ffffff; /* Texto blanco */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px; /* Ajusta el tamaño máximo de la tabla según tus necesidades */
+  margin: 0 auto; /* Centra la tabla en la página */
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+header{
+  display: flex;
+  justify-content:end;
+  padding: 16px 32px;
+}
+
+.profile{
+  display: flex;
+  color: white;
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenido{
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  
+}
+
+.anuncio1{
+  background-image: url('../img/mcdonals.gif');
+
+  width: 400px;
+
+}
+
+.anuncio2{
+  background-image: url('../img/outlast.gif');
+  background-size: contain;
+  width: 280px;
+
+}

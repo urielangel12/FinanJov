@@ -3,6 +3,8 @@ body{
     padding: 0;
     line-height: 1.6;
     font-family: 'Poppins',sans-serif;
+   
+
 }
 .promo{
     padding-top: 350px;
@@ -38,8 +40,13 @@ button:hover{
 #hero {
 min-height: 100vh;
 position: relative;
+background-image: url('../img/indexGif.gif');
+background-size: cover; /* Esto ajustará la imagen para cubrir todo el fondo */
+background-position: center; /* Esto centrará la imagen en el fondo */
+/* Puedes ajus  tar otras propiedades según tus necesidades */
+background-repeat: no-repeat;
 }
-video{
+img{
     position: absolute;
     top: 0;
     left: 0;
