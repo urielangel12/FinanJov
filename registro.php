@@ -28,7 +28,7 @@ $resultado = pg_query_params($conexion, $sql, array($username, $email, $contrase
 
 // Verificar si la inserción fue exitosa
 if ($resultado) {
-  header("Location: prestamos.php");
+  header("Location: prestamos.html");
   exit(); 
 } else {
     echo "Error al registrar la cuenta: " . pg_last_error();
