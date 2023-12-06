@@ -19,7 +19,7 @@
     <div class="container">
         <div class="signin-signup">
 
-            <form action="sesion.php" method="post" class="sign-in-form">
+            <form action="sesion.php" method="post" class="sign-in-form" onclick="redireccion()">
                 <h2 class="title">Iniciar sesión</h2>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
@@ -64,7 +64,7 @@
                     <i class="fas fa-lock"></i>
                     <input type="password" id="contrasena" name="contrasena" required placeholder="Password">
                 </div>
-                <input type="submit" value="Registrarse" class="btn">
+                <input type="submit" value="Registrarse" class="btn" onclick="redireccion()" >
                 <p class="social-text">
                     O inicia sesión en la plataforma social</p>
                 <div class="social-media">
@@ -91,7 +91,7 @@
                 <div class="content">
                     <h3>Ya tienes una cuenta?</h3>
                     <p>"¡Bienvenido a Finanjov! Donde cada cuenta es una puerta a oportunidades financieras ilimitadas.
-                        Ingresa con confianza a tu cuenta login y descubre un mundo de préstamos, inversiones y
+                        Ingresqa con confianza a tu cuenta login y descubre un mundo de préstamos, inversiones y
                         asesoramientos diseñados para tu éxito."</p>
                     <button class="btn" id="sign-in-btn"> Iniciar Sesion</button>
                 </div>
@@ -112,7 +112,7 @@
         </div>
     </div>
     <script src="js/app.js"></script>
-    
+    <script src="js/boton.js"></script>
 
 </body>
 
