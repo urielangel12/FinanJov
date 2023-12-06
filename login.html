@@ -19,7 +19,7 @@
     <div class="container">
         <div class="signin-signup">
 
-            <form action="sesion.php" method="post" class="sign-in-form" onclick="redireccion()">
+            <form action="sesion.php" method="post" class="sign-in-form" >
                 <h2 class="title">Iniciar sesión</h2>
                 <div class="input-field">
                     <i class="fas fa-user"></i>
@@ -64,7 +64,7 @@
                     <i class="fas fa-lock"></i>
                     <input type="password" id="contrasena" name="contrasena" required placeholder="Password">
                 </div>
-                <input type="submit" value="Registrarse" class="btn" onclick="redireccion()" >
+                <input type="submit" value="Registrarse" class="btn" >
                 <p class="social-text">
                     O inicia sesión en la plataforma social</p>
                 <div class="social-media">
@@ -93,7 +93,7 @@
                     <p>"¡Bienvenido a Finanjov! Donde cada cuenta es una puerta a oportunidades financieras ilimitadas.
                         Ingresqa con confianza a tu cuenta login y descubre un mundo de préstamos, inversiones y
                         asesoramientos diseñados para tu éxito."</p>
-                    <button class="btn" id="sign-in-btn"> Iniciar Sesion</button>
+                    <button class="btn" id="sign-in-btn" onclick="redireccion()"> Iniciar Sesion</button>
                 </div>
                 <img src="img/signin.svg" alt="" class="image">
             </div>
@@ -105,7 +105,7 @@
                         "En Finanjov, tu viaje financiero comienza con un simple paso: la creación de tu cuenta.
                         Regístrate ahora y abre las puertas a préstamos, inversiones y asesoramientos que te acercarán a
                         tus metas. Tu futuro financiero está a solo unos clics de distancia."</p>
-                    <button class="btn" id="sign-up-btn"> Registrarse</button>
+                    <button class="btn" id="sign-up-btn" onclick="redireccion()"> Registrarse</button>
                 </div>
                 <img src="img/signup.svg" alt="" class="image">
             </div>
