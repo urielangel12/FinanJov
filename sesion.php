@@ -31,7 +31,7 @@ $resultado = pg_query_params($conexion, $sql, array($username, $contrasena ));
 // Verificar si se encontró el usuario
 if ($fila = pg_fetch_assoc($resultado)) {
     // Mostrar los datos del usuario
-    header("Location: prestamos.php");
+    header("Location: prestamos.html");
     exit(); 
 } else {
     echo "No se encontraron datos del usuario.";
